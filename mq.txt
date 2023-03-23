@@ -1,0 +1,22 @@
+Queues 1..1 
+topic
+
+salesforce- publish - MQ - subscribe - Mulesoft
+1	1 - queue 0
+1 to n - 1 
+
+on new message - new message - run the flow
+consume - read message from queue
+publish - write into the queue - message 
+publish consume - message publish - reply message from mainframe system
+ack - manual/automatic/Immediate
+
+Auto - queue- one message is read - flow - mulesoft flow stop -   message will be placed back in the queue
+immediate - message loss canot be stopped - queue - message is succesfully processed
+manual - ack - meessage processed
+
+Redelivery - queueu lo auto - 1st fail  - 3 - 
+
+
+
+
